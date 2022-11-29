@@ -15,10 +15,10 @@ public interface LineItem {
 	public void setItemName(String name);
 	public String getItemName();
 	
-	public void setItemQuantity(String qty);
-	public String getItemQuantity();
+	public void setItemQuantity(int qty);
+	public int getItemQuantity();
 	
-	public void setItemPrice(String price);
-	public String getItemPrice();
+	public void setItemPrice(float price);
+	public float getItemPrice();
 
 }
